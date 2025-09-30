@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+
+
+@font-face {
+  font-family: "Anta";
+  src: url("/src/assets/fonts/Anta-Regular.ttf") format("truetype");
+}
+
+h1{
+    font-family: "Anta";
+}
+
+
