@@ -1,5 +1,13 @@
-import { motion } from 'framer-motion'
-import { Clock, Users, DollarSign, ArrowRight, Star, Calendar, MapPin } from 'lucide-react'
+import { motion } from "framer-motion";
+import {
+  Clock,
+  Users,
+  DollarSign,
+  ArrowRight,
+  Star,
+  Calendar,
+  MapPin,
+} from "lucide-react";
 
 const WorkshopCard = ({ workshop, onRegister }) => {
   return (
@@ -16,7 +24,7 @@ const WorkshopCard = ({ workshop, onRegister }) => {
           Featured Workshop
         </div>
       )}
-      
+
       <div className="p-6">
         {/* Workshop Icon */}
         <div className="w-16 h-16 bg-accent/20 rounded-xl flex items-center justify-center mb-4">
@@ -24,10 +32,14 @@ const WorkshopCard = ({ workshop, onRegister }) => {
         </div>
 
         {/* Workshop Title */}
-        <h3 className="text-xl font-bold text-text-primary mb-3">{workshop.title}</h3>
-        
+        <h3 className="text-xl font-bold text-text-primary mb-3">
+          {workshop.title}
+        </h3>
+
         {/* Workshop Description */}
-        <p className="text-text-primary/70 mb-6 leading-relaxed">{workshop.description}</p>
+        <p className="text-text-primary/70 mb-6 leading-relaxed">
+          {workshop.description}
+        </p>
 
         {/* Workshop Details */}
         <div className="space-y-3 mb-6">
@@ -75,14 +87,14 @@ const WorkshopCard = ({ workshop, onRegister }) => {
           whileHover={{ scale: 1.02 }}
           whileTap={{ scale: 0.98 }}
           onClick={() => onRegister(workshop)}
-          className="w-full bg-accent text-white py-3 px-4 rounded-lg font-semibold flex items-center justify-center space-x-2 hover:bg-accent/90 transition-all duration-300 shadow-lg hover:shadow-xl"
+          className="w-full bg-accent text-Black py-3 px-4 rounded-lg font-semibold flex items-center justify-center space-x-2 hover:bg-accent/90 transition-all duration-300 shadow-lg hover:shadow-xl"
         >
           <span>Register Now</span>
           <ArrowRight size={16} />
         </motion.button>
       </div>
     </motion.div>
-  )
-}
+  );
+};
 
-export default WorkshopCard
+export default WorkshopCard;

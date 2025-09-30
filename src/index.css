@@ -1,14 +1,29 @@
 @import "tailwindcss";
 
-
-
 @font-face {
   font-family: "Anta";
   src: url("/src/assets/fonts/Anta-Regular.ttf") format("truetype");
 }
 
-h1{
-    font-family: "Anta";
+h1 {
+  font-family: "Anta";
 }
 
+/* Gradient text effect */
+.text-gradient {
+  background: linear-gradient(135deg, #b6b09f 0%, #8b8678 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
 
+/* Card hover effect */
+.card-hover {
+  transition: all 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
