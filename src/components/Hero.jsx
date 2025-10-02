@@ -16,7 +16,7 @@ const Hero = () => {
         <div className="absolute inset-0 bg-black/60"></div>{" "}
         {/* dark overlay */}
         <img
-          src="https://images.unsplash.com/photo-1451976426598-a7593bd6d0b2?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGFyY2hpdGVjdHVyZXxlbnwwfHwwfHx8MA%3D%3D" // replace with your image path
+          src="https://images.pexels.com/photos/7698710/pexels-photo-7698710.jpeg?auto=compress&cs=tinysrgb&h=627&fit=crop&w=1200" // replace with your image path
           alt="Background"
           className="w-full h-full object-cover"
         />

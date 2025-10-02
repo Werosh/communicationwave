@@ -12,6 +12,7 @@ import ProfessionalDevelopment from "./pages/services/ProfessionalDevelopment";
 import DiversityEquityInclusion from "./pages/services/DiversityEquityInclusion";
 import CommunicationServices from "./pages/services/CommunicationServices";
 import BusinessConsulting from "./pages/services/BusinessConsulting";
+import SmallBusinessCertification from "./pages/services/SmallBusinessCertification";
 
 function App() {
   return (
@@ -46,6 +47,10 @@ function App() {
             <Route
               path="/services/business-consulting"
               element={<BusinessConsulting />}
+            />
+            <Route
+              path="/services/small-business-certification"
+              element={<SmallBusinessCertification />}
             />
           </Routes>
         </main>

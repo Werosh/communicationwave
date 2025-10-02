@@ -54,6 +54,10 @@ const Navbar = () => {
       path: "/services/communication-services",
     },
     { name: "Business Consulting", path: "/services/business-consulting" },
+    {
+      name: "Small Business Certification",
+      path: "/services/small-business-certification",
+    },
   ];
 
   const otherNavItems = [
